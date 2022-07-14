@@ -22,13 +22,10 @@ const WidgetsDropdown = () => {
           color="primary"
           value={
             <>
-              26K{' '}
-              <span className="fs-6 fw-normal">
-                (-12.4% <CIcon icon={cilArrowBottom} />)
-              </span>
+              2{' '}
             </>
           }
-          title="Users"
+          title="Need Approval (Atasan)"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle
@@ -124,13 +121,10 @@ const WidgetsDropdown = () => {
           color="info"
           value={
             <>
-              $6.200{' '}
-              <span className="fs-6 fw-normal">
-                (40.9% <CIcon icon={cilArrowTop} />)
-              </span>
+              4
             </>
           }
-          title="Income"
+          title="Total SPPD: Belum Unit Check"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle
@@ -225,13 +219,10 @@ const WidgetsDropdown = () => {
           color="warning"
           value={
             <>
-              2.49{' '}
-              <span className="fs-6 fw-normal">
-                (84.7% <CIcon icon={cilArrowTop} />)
-              </span>
+              5
             </>
           }
-          title="Conversion Rate"
+          title="Total SPPD: Belum Buat Laporan"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle
@@ -313,13 +304,10 @@ const WidgetsDropdown = () => {
           color="danger"
           value={
             <>
-              44K{' '}
-              <span className="fs-6 fw-normal">
-                (-23.6% <CIcon icon={cilArrowBottom} />)
-              </span>
+              7
             </>
           }
-          title="Sessions"
+          title="Total SPPD/Memo (Pending)"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle
